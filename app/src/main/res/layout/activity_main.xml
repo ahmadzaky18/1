@@ -3,12 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     android:id="@+id/activity_main"
     tools:context="MainActivity">
 
-    <androidx.recyclerview.widget.RecyclerViewrView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_hero"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:orientation="horizontal"
         tools:listitem="@layout/item_row_hero" />
 </RelativeLayout>
